@@ -13,7 +13,7 @@ pipeline {
         }
             steps {
                 echo 'Hello World'
-                echo "$(XYZ)"
+                echo "${XYZ}"
             }
         }
     }
